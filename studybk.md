@@ -60,4 +60,4 @@
      `git branch dev`
      `git checkout dev`
 19. 用git branch命令查看当前分支
-20. 
+20. `git fetch origin master`  把远程库更新到本地  [原文链接：](https://scofieldwyq.github.io/2016/02/29/git%E4%BB%8E%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%90%8C%E6%AD%A5%E5%88%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93/)
