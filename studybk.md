@@ -2,7 +2,7 @@
 
 ### sap-abap使用记录 
 
-* message 的用法  [](https://blog.csdn.net/qq_37625033/article/details/61918244)
+* message 的用法  [原文链接](https://blog.csdn.net/qq_37625033/article/details/61918244)
   错误消息类型:  S成功   E 错误   W  警告  I  消息  A  错误  X 系统错误
   ` MESSAGE  '错误信息'  TYPE 'E'  DISPLAY LIKE  'W' ` 
   ` message E001(Zlk01) with   变量  DISPLAY LIKE  'W' . `   "其中变量替代自定义消息(ZLK01)中的占位符  
@@ -30,7 +30,7 @@
  End Sub `
   然后在当前界面，按F5运行此宏，然后选择文件加密需要破解的EXCEL开始进行破解，这个破解速度是看你的密码对的长度、复杂程度、电脑配置。小编测试的一个【12】，是秒破。
 
-原文链接：[](https://blog.csdn.net/qq_22903531/article/details/83410527)
+[原文链接](https://blog.csdn.net/qq_22903531/article/details/83410527)
 
 ## git命令使用      
 
@@ -50,13 +50,14 @@
 
     场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考[版本回退](https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192)一节，不过前提是没有推送到远程库
     
-12. `ssh-keygen -t rsa -C "youremail@example.com" `  原文链接：[](https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416)
+12. `ssh-keygen -t rsa -C "youremail@example.com" `  [原文链接](https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416)
 13. `git remote add origin git@github.com:lk000115/mysite.git `  "关联远程库,远程库的名称 "origin"
 14. `git push -u origin master`  把本地库的内容推送到远程库,默认master分支
 15. git push -u origin master -f "使用强制push的方法,推送失败使用用
-16. push 失败     原文链接[](https://www.cnblogs.com/xu-ux/p/13844977.html)
+16. push 失败     [原文链接](https://www.cnblogs.com/xu-ux/p/13844977.html)
 17. git clone git@github.com:lk000115/mysite.git  "从远程克隆数据仓库
 18. `git checkout -b dev` 命令加上-b参数表示创建并切换，相当于以下两条命令：
      `git branch dev`
      `git checkout dev`
 19. 用git branch命令查看当前分支
+20. 
