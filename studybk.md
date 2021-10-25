@@ -56,4 +56,7 @@
 15. git push -u origin master -f "使用强制push的方法,推送失败使用用
 16. push 失败     原文链接[](https://www.cnblogs.com/xu-ux/p/13844977.html)
 17. git clone git@github.com:lk000115/mysite.git  "从远程克隆数据仓库
-
+18. `git checkout -b dev` 命令加上-b参数表示创建并切换，相当于以下两条命令：
+     `git branch dev`
+     `git checkout dev`
+19. 用git branch命令查看当前分支
