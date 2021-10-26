@@ -41,15 +41,16 @@
     
 12. `ssh-keygen -t rsa -C "youremail@example.com" `  [原文链接](https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416)
 13. `git remote add origin git@github.com:lk000115/mysite.git `  "关联远程库,远程库的名称 "origin"
-14. `git push -u origin master`  把本地库的内容推送到远程库,默认master分支
-15. git push -u origin master -f "使用强制push的方法,推送失败时使用
-16. push 失败     [原文链接](https://www.cnblogs.com/xu-ux/p/13844977.html)
-17. git clone git@github.com:lk000115/mysite.git  "从远程克隆数据仓库
-18. `git checkout -b dev` 命令加上-b参数表示创建并切换，相当于以下两条命令：
+14. `git remote rm origin`                                       "删除远程库
+15. `git push -u origin master`  把本地库的内容推送到远程库,默认master分支
+16. git push -u origin master -f "使用强制push的方法,推送失败时使用
+17. push 失败     [原文链接](https://www.cnblogs.com/xu-ux/p/13844977.html)
+18. git clone git@github.com:lk000115/mysite.git  "从远程克隆数据仓库
+19. `git checkout -b dev` 命令加上-b参数表示创建并切换，相当于以下两条命令：
      `git branch dev`
      `git checkout dev`
-19. 用git branch命令查看当前分支
-20. `git fetch origin master`  把远程库更新到本地  [原文链接：](https://scofieldwyq.github.io/2016/02/29/git%E4%BB%8E%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%90%8C%E6%AD%A5%E5%88%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93/)
+20. 用git branch命令查看当前分支
+21. `git fetch origin master`  把远程库更新到本地  [原文链接：](https://scofieldwyq.github.io/2016/02/29/git%E4%BB%8E%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%90%8C%E6%AD%A5%E5%88%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93/)
 21  `git merge origin/master`  "执行 git fetch 之后需要紧接着执行 git merge 远程分支到你本地当前分支
 
 21. git pull <远程主机名> <远程分支名>:<本地分支名> "把远程库的更新同步到本地库  
