@@ -22,6 +22,7 @@
 [原文链接](https://blog.csdn.net/qq_22903531/article/details/83410527)
 
 ## git命令使用     [使用教程链接:](https://www.runoob.com/git/git-fetch.html) 
+*  出错处理: [网址链接](https://cloud.tencent.com/developer/article/1572090)
 
 1. `git init `                                                   "初始化本地仓库
 2. `git  add  要增加或修改的文件名  `             "可以同时增加多个文件,文件之间用空格隔开 
