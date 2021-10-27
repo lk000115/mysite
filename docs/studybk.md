@@ -2,23 +2,23 @@
 
 新开一Excel，同时按Alt+F11，进入VBA界面，点菜单上的插入，模块，在新出来的窗口粘贴一下代码：
 
-` Sub crack()  
- Dim i As Long
-  Dim FileName As String
-  i = 0
- FileName = Application.GetOpenFilename("Excel文件（*.xls & *.xlsx）,*.xls;*.xlsx", , "VBA破解")
-  FileName = Right(FileName, Len(FileName) - InStrRev(FileName, "\"))
-  Application.ScreenUpdating = False
-  line2: On Error GoTo line1
-  Workbooks.Open FileName, , True, , i
-  MsgBox "Password is " & i
-  Exit Sub
-  line1: i = i + 1
-  Resume line2
-  Application.ScreenUpdating = True
- End Sub `
+``` Sub crack()  
+ Dim i As Long  
+ Dim FileName As String  
+  i = 0  
+ FileName = Application.GetOpenFilename("Excel文件（*.xls & *.xlsx）,*.xls;*.xlsx", , "VBA破解")  
+  FileName = Right(FileName, Len(FileName) - InStrRev(FileName, "\"))  
+  Application.ScreenUpdating = False  
+  line2: On Error GoTo line1  
+  Workbooks.Open FileName, , True, , i  
+  MsgBox "Password is " & i  
+  Exit Sub  
+  line1: i = i + 1  
+  Resume line2  
+  Application.ScreenUpdating = True  
+ End Sub 
   然后在当前界面，按F5运行此宏，然后选择文件加密需要破解的EXCEL开始进行破解，这个破解速度是看你的密码对的长度、复杂程度、电脑配置。小编测试的一个【12】，是秒破。
-
+```
 [原文链接](https://blog.csdn.net/qq_22903531/article/details/83410527)
 
 ## git命令使用     [使用教程链接:](https://www.runoob.com/git/git-fetch.html) 
@@ -54,3 +54,4 @@
 21. `git fetch origin master`  把远程库更新到本地  [原文链接：](https://scofieldwyq.github.io/2016/02/29/git%E4%BB%8E%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%90%8C%E6%AD%A5%E5%88%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93/)
 21. `git merge origin/master`  "执行 git fetch 之后需要紧接着执行 git merge 远程分支到你本地当前分支
 22.  git pull <远程主机名> <远程分支名>:<本地分支名> "把远程库的更新同步到本地库  
+23.  流程图: [知乎上的教程:](https://zhuanlan.zhihu.com/p/69495726)
