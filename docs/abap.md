@@ -7,6 +7,7 @@
   * ` MESSAGE  '错误信息'  TYPE 'E'  DISPLAY LIKE  'W' ` 
   * ` message E001(Zlk01) with   变量  DISPLAY LIKE  'W' . `   "其中变量替代自定义消息(ZLK01)中的占位符  
 * smartforms 使用
-* se78 向系统中增加图片
-# 一级标题
+* se78 向系统中增加图片    
+
+一级标
 
