@@ -6,6 +6,8 @@
             "type": "pwa-chrome",
             "url": "file:///F:/study/mysite/pages/index.html",
             "webRoot": "${workspaceFolder}"
+
+            
         },
     {
         
