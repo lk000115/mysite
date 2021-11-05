@@ -9,5 +9,12 @@
 * smartforms 使用
 * se78 向系统中增加图片    
 
-一级标
-
+* 选择单行数据 `select single * from  数据库 into 工作区  where 条件 `
+* 选择多行数据 
+    ``` 
+    select * from 数据库  into 工作区 
+         语句块
+    endselect  
+    ```
+* 选择至内表 `select * from 数据库 into table 内表 where 条件 ` 
+* 
