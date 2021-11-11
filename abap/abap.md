@@ -17,4 +17,9 @@
     endselect  
     ```
 * 选择至内表 `select * from 数据库 into table 内表 where 条件 ` 
-* 
+* 事件处理
+  1 声明事件          ` envents : 事件名 `
+  2 触发事件条件      `if  满足条件 raise event 事件名  of  类名`
+  3 声明事件处理方法  `methods 方法名  for event 事件名  of 类名`
+  4 注册事件          `set handler   类名-->方法  for 对象名 `
+*   
