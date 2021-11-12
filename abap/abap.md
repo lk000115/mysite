@@ -1,5 +1,18 @@
 ## SAP笔记
-
+### abap 程序命名规则  
+  c. 全局变量 GXX_XXX
+        变量                        GV_  
+        内表（Internal Table）       GT_  
+        结构（Structure）            GS_  
+        Range                       R_  
+        常量                         C_  
+        类型（Type）                 GTY_  
+        Parameters                   P_  
+        Select-options               S_  
+  d. 局部变量 LX_XXX  
+        变量                         LV_  
+        内表                         LT_  
+        结构                         LS_  
 ### sap-abap使用记录 
 
 * message 的用法  [原文链接](https://blog.csdn.net/qq_37625033/article/details/61918244)
@@ -22,4 +35,5 @@
   2.触发事件条件      `if  满足条件 raise event 事件名  of  类名`  
   3.声明事件处理方法  `methods 方法名  for event 事件名  of 类名`  
   4.注册事件          `set handler   类名-->方法  for 对象名 `  
-*   
+* 把结构体中的字段分配给字段符号  ` assign componet 'matnr'  of structure gs_makt to <fs_field> `   通过字段名  
+                               ` assign componet 1  of structure gs_makt to <fs_field> `         通过第几个字段  
