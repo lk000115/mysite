@@ -36,4 +36,5 @@
   3.声明事件处理方法  `methods 方法名  for event 事件名  of 类名`  
   4.注册事件          `set handler   类名-->方法  for 对象名 `  
 * 把结构体中的字段分配给字段符号  ` assign componet 'matnr'  of structure gs_makt to <fs_field> `   通过字段名  
-                               ` assign componet 1  of structure gs_makt to <fs_field> `         通过第几个字段  
+                               ` assign componet 1  of structure gs_makt to <fs_field> `         通过第几个字段   
+* ALSM_EXCEL_TO_INTERNAL_TABLE    XLSX转内表程序                                
