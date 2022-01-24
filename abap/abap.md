@@ -38,3 +38,29 @@
 * 把结构体中的字段分配给字段符号  ` assign componet 'matnr'  of structure gs_makt to <fs_field> `   通过字段名  
                                ` assign componet 1  of structure gs_makt to <fs_field> `         通过第几个字段   
 * ALSM_EXCEL_TO_INTERNAL_TABLE    XLSX转内表程序                                
+* ALV 报表配置步骤  
+  ```  
+    1. ALV 参数设置
+      DATA: it_fieldcat TYPE lvc_t_fcat, " 字段目录内表  
+            wa_field TYPE lvc_s_fcat, " 字段目录工作区  
+            Wa_layout      TYPE lvc_s_layo. " ALV布局  
+    2. 定义宏,简化ALV内表目录字段配置
+        DEFINE OUTTAB. "field宏设置
+          CLEAR wa_field.
+          wa_field-reptext    = &1.    " alv字段显示文本
+          wa_field-ref_field  = &2.
+          wa_field-ref_table  = &3.
+          wa_field-no_zero    = &4.
+          wa_field-fieldname  = &5.     
+          wa_field-icon       = &6.
+          APPEND wa_field TO it_fieldcat.
+          CLEAR wa_field.
+        END-OF-DEFINITION.   
+    3. OUTTAB  '&1'  '&2'  '&3' '&4'  '&5'  '&6'  
+
+  ```
+
+
+  ddd
+  
+  
