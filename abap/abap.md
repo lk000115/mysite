@@ -59,8 +59,7 @@
     3. OUTTAB  '&1'  '&2'  '&3' '&4'  '&5'  '&6'  
 
   ```
-
-
-  ddd
-  
+* 选择屏幕  parameters    select-options   
+*  CONVERSION_EXIT_CUNIT_OUTPUT    ABAP单位转换函数
+*  CONVERSION_EXIT_ALPHA_OUTPUT    去前导0函数  
   
