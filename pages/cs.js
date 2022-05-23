@@ -2,9 +2,16 @@
 var aa = "ffff" ;
 var chr = typeof(aa);
 console.log("console.log 命令可以直接在node环境中运行");
-console.log(chr) ;
 console.log('------------------------------');
-var box = new Object();
-box.name = "like" ;
-box.age = 20 ;
-console.log(box);
+
+var value = 1;
+function foo() {
+  console.log("变量value   " + value);
+}
+function bar() {
+  var value = 2;
+  foo();
+}
+bar();
+
+
