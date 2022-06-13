@@ -65,4 +65,5 @@
 * 选择屏幕  parameters    select-options   
 *  CONVERSION_EXIT_CUNIT_OUTPUT    ABAP单位转换函数
 *  CONVERSION_EXIT_ALPHA_OUTPUT    去前导0函数  
+* 赛依视频 BDC 包含 消息处理  
   
