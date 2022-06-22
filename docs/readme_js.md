@@ -10,3 +10,9 @@
 *    1 找变量声明，将变量名作为GO属性名，值为undefined
 *    2 查找函数声明，作为GO属性，值赋予函数体
 *    3 由于全局中没有参数的的概念，所以省去了实参形参相统一这一步。   
+* 预编译阶段发生变量声明和函数声明，没有初始化行为（赋值），匿名函数不参与预编译 ；
+  只有在解释执行阶段才会进行变量初始化 ；  
+
+ Object.prototype.tostring    通过调用方法能够精准判断对象的类型   
+ 调用Object上的tostring方法    Object.prototype.tostring.call(调用对象)
+ 对象.hasOwnProperty(属性)   识别属性是否是对象的属性
