@@ -13,6 +13,9 @@
 * 预编译阶段发生变量声明和函数声明，没有初始化行为（赋值），匿名函数不参与预编译 ；
   只有在解释执行阶段才会进行变量初始化 ；  
 
- Object.prototype.tostring    通过调用方法能够精准判断对象的类型   
- 调用Object上的tostring方法    Object.prototype.tostring.call(调用对象)
- 对象.hasOwnProperty(属性)   识别属性是否是对象的属性
+* Object.prototype.tostring    通过调用方法能够精准判断对象的类型   
+* 调用Object上的tostring方法    Object.prototype.tostring.call(调用对象)
+* 对象.hasOwnProperty(属性)   识别属性是否是对象的属性
+* 三目运算符      条件 ? 是  : 否           表达式有返回值
+* 如  var num  =  1 > 0 ?  2+2 : 1+1
+* npm install --save-dev @types/node    vscode node代码智能提示
